@@ -1,0 +1,11 @@
+zone "lab.makhan128.300.ops" {
+    type secondary;
+    file "/var/cache/bind/db.lab.makhan128.300.ops";
+    primaries { 192.168.13.10; };
+};
+
+zone "13.168.192.in-addr.arpa" {
+    type secondary;
+    file "/var/cache/bind/db.192.168.13";
+    primaries { 192.168.13.10; };
+};
